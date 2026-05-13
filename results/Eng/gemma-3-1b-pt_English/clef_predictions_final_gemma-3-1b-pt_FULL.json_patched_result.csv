@@ -1,0 +1,30 @@
+=== IR Ranking Metrics (RM-ranked reasoning traces) ===
+k,Mean Recall@k,Mean Precision@k
+1,0.0826,0.5513
+2,0.1413,0.5437
+3,0.1926,0.5381
+4,0.2403,0.5337
+5,0.2876,0.5298
+MRR@5,0.5769
+
+=== Per-Class Metrics (Top-1 Verdict_BoN vs Ground Truth) ===
+Class,Precision,Recall,F1-Score,Support
+false,0.7608,0.6375,0.6937,913
+true,0.3407,0.5099,0.4084,304
+conflicting,0.3816,0.3786,0.3801,383
+
+=== Aggregate Metrics (Top-1 Verdict_BoN) ===
+Average,Precision,Recall,F1-Score
+macro avg,0.4943,0.5086,0.4941
+weighted avg,0.5902,0.5513,0.5644
+
+=== Per-Class Metrics (Weighted Top-5 Vote vs Ground Truth) ===
+Class,Precision,Recall,F1-Score,Support
+false,0.7638,0.6232,0.6864,913
+true,0.3348,0.5066,0.4031,304
+conflicting,0.3949,0.4073,0.401,383
+
+=== Aggregate Metrics (Weighted Top-5 Vote) ===
+Average,Precision,Recall,F1-Score
+macro avg,0.4978,0.5124,0.4968
+weighted avg,0.594,0.5494,0.5643
