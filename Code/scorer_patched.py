@@ -24,9 +24,9 @@ from typing import Any
 
 from sklearn.metrics import classification_report
 
-INPUT_PATH = "output/RM_prediction/clef_predictions.json"
-OUTPUT_PATH = "output/RM_prediction/result.csv"
-PER_SAMPLE_PATH = "output/RM_prediction/per_sample_ir.csv"
+INPUT_PATH = "./clef_predictions_validate_Llama_3_2_1B.json"
+OUTPUT_PATH = "./result.csv"
+PER_SAMPLE_PATH = "./per_sample_ir.csv"
 CLASS_ORDER = ["false", "true", "conflicting"]
 K_VALUES = list(range(1, 6))
 MRR_K = 5
